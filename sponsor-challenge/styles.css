@@ -72,11 +72,11 @@ body {
 	right:0;
 }
 .company3{
-	top:130px;
+	top:43%;
 	left:0;
 }
 .company4{
-	top:110px;
+	top:35%;
 	right:0;
 }
 .company5{
@@ -94,7 +94,7 @@ body {
 
 .three {
 	margin-right: 0;
-	background: url("images/bg.jpg") no-repeat center center;
+	background: url("images/bg.jpg") no-repeat center top;
 	background-size: 100% auto;
 }
 
@@ -118,12 +118,40 @@ body {
 @media screen and (max-width: 900px) {
 	/* Refer to the 875px-wide browser screenshot for how this should look */
 
+	.one, .two{
+		width: 45%;
+		margin-bottom: 50px;
+	}
 
+	.two h2{
+		position: absolute;
+		bottom:40%;
+		font-size:18pt;
+	}
+
+	.two p{
+		position: absolute;
+		top:60%;
+	}
+
+	.three{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 550px) {
 	/* Refer to the 525px-wide browser screenshot for how this should look */
 	/* At this point the partner logos switch back to just being two across. */
 
+	.one, .two{
+		width: 100%;
+	}
 
+	.two{
+		margin-bottom: 0px;
+	}
+
+	.container h1{
+	padding-bottom: 30px;	
+}
 }
